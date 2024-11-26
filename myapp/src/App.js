@@ -4,6 +4,8 @@ import { BrowserRouter as Router,Routes,Route,Link,NavLink} from 'react-router-d
 import Home from './components/Home';
 import About from './components/About';
 import Contactus from './components/Contactus';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/home'element={<Home/>}/>
           <Route path='/about'element={<About/>}/>
           <Route path='/contact'element={<Contactus/>}/>
+          <Route path='/'element={<Login/>}/>
+          <Route path='/dash'element={<Dashboard/>}/>
         </Routes>
       </Router>
     </div>
