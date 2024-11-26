@@ -13,17 +13,19 @@ function App() {
       <Router>
         <nav>
           <ul>
-            <li><Link to="/home">Home</Link></li>
+            {/* <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">ContactUs</Link></li>
+            <li><Link to="/contact">ContactUs</Link></li> */}
+            {/* <li><Link to="/login">Login</Link></li> */}
           </ul>
         </nav>
       <Routes>
-          <Route path='/home'element={<Home/>}/>
+          {/* <Route path='/home'element={<Home/>}/>
           <Route path='/about'element={<About/>}/>
-          <Route path='/contact'element={<Contactus/>}/>
-          <Route path='/'element={<Login/>}/>
+          <Route path='/contact'element={<Contactus/>}/> */}
+          <Route path='/login'element={<Login/>}/>
           <Route path='/dash'element={<Dashboard/>}/>
+         
         </Routes>
       </Router>
     </div>
