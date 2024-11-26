@@ -16,9 +16,6 @@ function App() {
             <li><Link to="/contact">ContactUs</Link></li>
           </ul>
         </nav>
-      
-     
-
       <Routes>
           <Route path='/home'element={<Home/>}/>
           <Route path='/about'element={<About/>}/>
